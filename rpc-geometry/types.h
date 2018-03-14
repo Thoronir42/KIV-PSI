@@ -23,8 +23,9 @@ extern "C" {
 typedef char request_state_t;
 #define request_state_idle  1
 #define request_state_computing  2
-#define request_state_finished  3
-#define request_state_retrieved 4
+#define request_state_reserved 3
+#define request_state_finished  4
+#define request_state_retrieved 5
 
 typedef char response_state_t;
 #define response_state_ok 0
